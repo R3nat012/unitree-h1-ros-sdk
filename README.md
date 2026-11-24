@@ -55,6 +55,8 @@ The `ros2_launch.sh` script handles all environment setup automatically:
 | `./ros2_launch.sh gazebo --no-rviz` | Launch without RViz |
 | `./ros2_launch.sh teleop` | Launch keyboard teleoperation |
 | `./ros2_launch.sh control` | Launch high-level control node |
+| `./ros2_launch.sh walk` | Launch Gazebo + walking policy |
+| `./ros2_launch.sh walk_hands` | Launch Gazebo + walking policy + hands controller |
 | `./ros2_launch.sh full` | Launch Gazebo + control + bridge |
 | `./ros2_launch.sh build` | Build the workspace |
 | `./ros2_launch.sh topic list` | List ROS 2 topics |
