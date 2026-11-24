@@ -27,6 +27,7 @@ install(PROGRAMS
   scripts/joystick_teleop.py
   scripts/high_level_control.py
   scripts/gazebo_sim_controller.py
+  scripts/rl_walk_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -34,6 +35,7 @@ install(PROGRAMS
 install(DIRECTORY
   launch
   config
+  policy
   DESTINATION share/${PROJECT_NAME}
 )
 

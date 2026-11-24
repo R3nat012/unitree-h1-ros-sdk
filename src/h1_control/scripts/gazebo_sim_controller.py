@@ -112,7 +112,7 @@ class GazeboSimController(Node):
         # Each joint controller subscribes to /model/h1/joint/<joint_name>/0/cmd_pos
         self.joint_cmd_pubs = {}
         for joint_name in self.JOINT_NAMES:
-            topic = f'/model/h1/joint/{joint_name}/0/cmd_pos'
+            topic = f'/model/h1/joint/{joint_name}/cmd_pos'
             self.joint_cmd_pubs[joint_name] = self.create_publisher(Float64, topic, qos)
 
         # Control loop timer

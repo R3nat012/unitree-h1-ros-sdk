@@ -88,7 +88,11 @@ case "$1" in
         echo -e "${GREEN}Launching full simulation with control...${NC}"
         ros2_run "ros2 launch h1_control simulation_control.launch.py"
         ;;
-    
+        
+    walk)
+        ros2_run "ros2 launch h1_control rl_walk.launch.py"
+        ;;
+        
     topic)
         shift
         ros2_run "ros2 topic $*"

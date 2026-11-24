@@ -106,7 +106,7 @@ def generate_launch_description():
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
         ),
         launch_arguments={
-            'gz_args': ['-r -v4 ', LaunchConfiguration('world')],
+            'gz_args': ['-v4 ', LaunchConfiguration('world')],
         }.items()
     )
     
@@ -139,6 +139,19 @@ def generate_launch_description():
             '/odom@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
             # Command velocity - ROS to Gazebo
             '/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',
+            
+        ] + [
+            f'/model/h1/joint/{j}/cmd_pos@std_msgs/msg/Float64]ignition.msgs.Double'
+            for j in [
+                'left_hip_yaw_joint', 'left_hip_roll_joint', 'left_hip_pitch_joint',
+                'left_knee_joint', 'left_ankle_joint',
+                'right_hip_yaw_joint', 'right_hip_roll_joint', 'right_hip_pitch_joint',
+                'right_knee_joint', 'right_ankle_joint', 'torso_joint',
+                'left_shoulder_pitch_joint', 'left_shoulder_roll_joint',
+                'left_shoulder_yaw_joint', 'left_elbow_joint',
+                'right_shoulder_pitch_joint', 'right_shoulder_roll_joint',
+                'right_shoulder_yaw_joint', 'right_elbow_joint',
+            ]
         ],
         output='screen',
         parameters=[{
@@ -185,6 +198,6 @@ def generate_launch_description():
         gazebo,
         spawn_robot,
         ros_gz_bridge,
-        joint_state_publisher_node,
+        #joint_state_publisher_node,
         rviz_node,
     ])
