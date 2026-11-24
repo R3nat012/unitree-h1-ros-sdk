@@ -20,7 +20,7 @@ ROS 2 Humble SDK for the Unitree H1 humanoid robot with Gazebo simulation and hi
 
 ```bash
 # Clone the repository
-git clone [https://github.com/YasiruDEX/unitree-h1-ros-sdk.git](https://github.com/R3nat012/unitree-h1-ros-sdk.git)
+git clone https://github.com/R3nat012/unitree-h1-ros-sdk.git
 cd unitree-h1-ros-sdk
 
 # Build the workspace
