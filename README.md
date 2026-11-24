@@ -7,7 +7,7 @@ ROS 2 Humble SDK for the Unitree H1 humanoid robot with Gazebo simulation and hi
 - **H1 Robot Description**: Complete URDF model with all 19 controllable joints
 - **Gazebo Simulation**: Ignition Gazebo (Fortress) integration with physics simulation
 - **High-Level Control**: Velocity-based motion control with walking modes
-- **Keyboard Teleoperation**: Control the robot with keyboard commands
+- **Walking**: Control the robot publishing velocities into the cmd_vel topic
 - **Joystick Support**: Gamepad/joystick teleoperation
 
 ## Prerequisites
@@ -61,29 +61,6 @@ The `ros2_launch.sh` script handles all environment setup automatically:
 | `./ros2_launch.sh build` | Build the workspace |
 | `./ros2_launch.sh topic list` | List ROS 2 topics |
 | `./ros2_launch.sh node list` | List ROS 2 nodes |
-
-### Keyboard Teleoperation Controls
-
-```
-Movement:
-  W/S - Forward/Backward
-  A/D - Strafe Left/Right
-  Q/E - Turn Left/Right
-
-Speed Control:
-  Z/X - Increase/Decrease linear speed
-  C/V - Increase/Decrease angular speed
-
-Mode Control:
-  1 - Idle Mode
-  2 - Walk Mode
-  3 - Trot Gait
-  4 - Running Gait
-  5 - Recovery Mode
-
-SPACE - Emergency Stop
-ESC   - Quit
-```
 
 ### Publishing velocities
 To walk the robot we have to publish directly into the /cmd_vel topic
@@ -150,16 +127,6 @@ unitree-h1-ros-sdk/
 | 4 | STAND_UP | Rise to standing |
 | 5 | DAMPING | Compliant mode |
 | 6 | RECOVERY | Recovery from fall |
-
-## Gait Types
-
-| Gait | Name | Description |
-|------|------|-------------|
-| 0 | IDLE | No movement |
-| 1 | TROT | Standard walking |
-| 2 | TROT_RUNNING | Fast walking |
-| 3 | CLIMB_STAIR | Stair climbing |
-| 4 | TROT_OBSTACLE | Obstacle traversal |
 
 ## Troubleshooting
 
