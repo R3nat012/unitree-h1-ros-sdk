@@ -109,8 +109,7 @@ unitree-h1-ros-sdk/
 
 ### Subscribed (Control Input)
 - `/cmd_vel` (geometry_msgs/Twist) - Velocity commands
-- `/h1/mode` (std_msgs/Int32) - Robot mode
-- `/h1/gait_type` (std_msgs/Int32) - Gait type
+- `/h1/hand_cmd` (sensor_msgs/msg/JointState) - Close/Open hand
 
 ### Published (Status)
 - `/h1/robot_state` (std_msgs/String) - Robot state JSON
