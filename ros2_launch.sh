@@ -92,6 +92,10 @@ case "$1" in
     walk)
         ros2_run "ros2 launch h1_control rl_walk.launch.py"
         ;;
+
+    walk_hands)
+        ros2_run "H1_ROBOT=h1_2 ros2 launch h1_control rl_walk.launch.py robot:=h1_2"
+        ;;
         
     topic)
         shift

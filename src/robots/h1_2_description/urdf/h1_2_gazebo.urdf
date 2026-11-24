@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <robot name="h1_2">
 
   <mujoco>
@@ -20,16 +21,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/pelvis.STL"/>
+        <mesh filename="package://h1_2_description/meshes/pelvis.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/pelvis.STL"/>
+        <mesh filename="package://h1_2_description/meshes/pelvis.STL"/>
       </geometry>
     </collision>
   </link>
@@ -44,9 +45,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_hip_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_hip_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -67,16 +68,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_hip_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_hip_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_hip_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_hip_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -96,16 +97,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_hip_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_hip_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_hip_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_hip_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -125,9 +126,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_knee_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_knee_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -154,9 +155,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_ankle_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_ankle_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -177,16 +178,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_ankle_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_ankle_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_ankle_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_ankle_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -208,9 +209,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_hip_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_hip_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -231,16 +232,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_hip_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_hip_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_hip_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_hip_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -260,16 +261,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_hip_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_hip_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_hip_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_hip_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -289,9 +290,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_knee_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_knee_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -318,9 +319,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_ankle_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_ankle_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
@@ -341,16 +342,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_ankle_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_ankle_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_ankle_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_ankle_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -372,16 +373,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/torso_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/torso_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/torso_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/torso_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -403,16 +404,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -432,16 +433,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -461,16 +462,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_shoulder_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_shoulder_yaw_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -490,16 +491,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_elbow_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_elbow_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_elbow_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_elbow_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -520,15 +521,15 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_wrist_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_wrist_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/left_wrist_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_wrist_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -549,15 +550,15 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/left_wrist_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_wrist_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/left_wrist_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/left_wrist_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -577,16 +578,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wrist_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/wrist_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <!-- <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wrist_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/wrist_yaw_link.STL"/>
       </geometry>
     </collision> -->
   </link>
@@ -595,7 +596,7 @@
     <parent link="left_wrist_pitch_link"/>
     <child link="left_wrist_yaw_link"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-1.27" upper="1.27" effort="19" velocity="31.4"/>
+    <limit lower="-1.27" upper="1.27" effort="19" velocity="31.4"/> 
   </joint>
 
   <!-- R arm -->
@@ -608,16 +609,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -637,16 +638,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -667,16 +668,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_shoulder_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_shoulder_yaw_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -696,16 +697,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_elbow_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_elbow_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_elbow_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_elbow_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -726,15 +727,15 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_wrist_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_wrist_roll_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/right_wrist_roll_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_wrist_roll_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -755,15 +756,15 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/right_wrist_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_wrist_pitch_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="meshes/right_wrist_pitch_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/right_wrist_pitch_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -783,16 +784,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wrist_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/wrist_yaw_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <!-- <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/wrist_yaw_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/wrist_yaw_link.STL"/>
       </geometry>
     </collision> -->
   </link>
@@ -809,9 +810,9 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/logo_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/logo_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_1">
         <color rgba="1 1 1 1"/>
       </material>
     </visual>
@@ -829,6 +830,30 @@
     <origin xyz="-0.04452 -0.01891 0.27756" rpy="0 0 0"/>
     <parent link="torso_link"/>
     <child link="imu_link"/>
+  </joint>
+
+  <link name="mid360_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.001" />
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="mid360_joint" type="fixed">
+    <origin xyz="0.04729990180 0 0.67492878653" rpy="0 0.243124 0" />
+    <parent link="torso_link" />
+    <child link="mid360_link" />
+    <axis xyz="0 0 0" />
   </joint>
 
   <!-- Camera&Lidar -->
@@ -860,16 +885,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/L_hand_base_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/L_hand_base_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/L_hand_base_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/L_hand_base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -882,16 +907,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link11_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link11_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link11_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link11_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -911,16 +936,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link12_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link12_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link12_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link12_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -940,16 +965,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link13_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link13_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link13_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link13_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -970,16 +995,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link14_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link14_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link14_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link14_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1000,16 +1025,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link15_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link15_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link15_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link15_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1029,16 +1054,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link16_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link16_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link16_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link16_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1059,16 +1084,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link17_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link17_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link17_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link17_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1088,16 +1113,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link18_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link18_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link18_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link18_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1118,16 +1143,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link19_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link19_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link19_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link19_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1147,16 +1172,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link20_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link20_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link20_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link20_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1177,16 +1202,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link21_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link21_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link21_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link21_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1206,16 +1231,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link22_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link22_L.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link22_L.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link22_L.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1243,16 +1268,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/R_hand_base_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/R_hand_base_link.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/R_hand_base_link.STL"/>
+        <mesh filename="package://h1_2_description/meshes/R_hand_base_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1265,16 +1290,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link11_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link11_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link11_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link11_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1294,16 +1319,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link12_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link12_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link12_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link12_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1323,16 +1348,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link13_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link13_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link13_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link13_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1353,16 +1378,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link14_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link14_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link14_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link14_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1383,16 +1408,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link15_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link15_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link15_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link15_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1412,16 +1437,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link16_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link16_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link16_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link16_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1442,16 +1467,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link17_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link17_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link17_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link17_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1471,16 +1496,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link18_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link18_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link18_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link18_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1501,16 +1526,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link19_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link19_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link19_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link19_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1530,16 +1555,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link20_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link20_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link20_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link20_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1560,16 +1585,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link21_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link21_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link21_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link21_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1589,16 +1614,16 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link22_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link22_R.STL"/>
       </geometry>
-      <material>
+      <material name="h1_2_color_0">
         <color rgba="0.1 0.1 0.1 1"/>
       </material>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="meshes/link22_R.STL"/>
+        <mesh filename="package://h1_2_description/meshes/link22_R.STL"/>
       </geometry>
     </collision>
   </link>
@@ -1610,4 +1635,677 @@
     <limit lower="0" upper="1.7" effort="1" velocity="0.5"/>
     <mimic joint="R_pinky_proximal_joint" multiplier="1" offset="0"/>
   </joint>
+
+  <!-- Gazebo plugins for ROS 2 integration -->
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-state-publisher-system.so"
+            name="ignition::gazebo::systems::JointStatePublisher">
+      <topic>joint_states</topic>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-odometry-publisher-system.so"
+            name="ignition::gazebo::systems::OdometryPublisher">
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>pelvis</robot_base_frame>
+      <odom_topic>/odom</odom_topic>
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <dimensions>3</dimensions>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-pose-publisher-system.so"
+            name="ignition::gazebo::systems::PosePublisher">
+      <publish_link_pose>true</publish_link_pose>
+      <publish_sensor_pose>false</publish_sensor_pose>
+      <publish_collision_pose>false</publish_collision_pose>
+      <publish_visual_pose>false</publish_visual_pose>
+      <publish_nested_model_pose>true</publish_nested_model_pose>
+      <update_frequency>50</update_frequency>
+    </plugin>
+  </gazebo>
+
+  <!-- Joint position controllers. Legs/torso/arms use unitree_rl_gym h1_2 gains.
+       Hands: Gazebo ignores URDF <mimic>, so every finger joint has its own controller
+       and rl_walk_controller.py sends the mimic values. Finger gains are tiny because
+       the finger links weigh ~4 g; larger gains go unstable at a 1 ms step. -->
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_hip_yaw_joint</joint_name>
+      <topic>/model/h1/joint/left_hip_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_hip_pitch_joint</joint_name>
+      <topic>/model/h1/joint/left_hip_pitch_joint/cmd_pos</topic>
+      <initial_position>-0.16</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_hip_roll_joint</joint_name>
+      <topic>/model/h1/joint/left_hip_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_knee_joint</joint_name>
+      <topic>/model/h1/joint/left_knee_joint/cmd_pos</topic>
+      <initial_position>0.36</initial_position>
+      <p_gain>300</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>4</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_ankle_pitch_joint</joint_name>
+      <topic>/model/h1/joint/left_ankle_pitch_joint/cmd_pos</topic>
+      <initial_position>-0.2</initial_position>
+      <p_gain>40</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_ankle_roll_joint</joint_name>
+      <topic>/model/h1/joint/left_ankle_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>40</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_hip_yaw_joint</joint_name>
+      <topic>/model/h1/joint/right_hip_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_hip_pitch_joint</joint_name>
+      <topic>/model/h1/joint/right_hip_pitch_joint/cmd_pos</topic>
+      <initial_position>-0.16</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_hip_roll_joint</joint_name>
+      <topic>/model/h1/joint/right_hip_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>200</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2.5</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_knee_joint</joint_name>
+      <topic>/model/h1/joint/right_knee_joint/cmd_pos</topic>
+      <initial_position>0.36</initial_position>
+      <p_gain>300</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>4</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_ankle_pitch_joint</joint_name>
+      <topic>/model/h1/joint/right_ankle_pitch_joint/cmd_pos</topic>
+      <initial_position>-0.2</initial_position>
+      <p_gain>40</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_ankle_roll_joint</joint_name>
+      <topic>/model/h1/joint/right_ankle_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>40</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>torso_joint</joint_name>
+      <topic>/model/h1/joint/torso_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>300</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>3</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_shoulder_pitch_joint</joint_name>
+      <topic>/model/h1/joint/left_shoulder_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_shoulder_roll_joint</joint_name>
+      <topic>/model/h1/joint/left_shoulder_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_shoulder_yaw_joint</joint_name>
+      <topic>/model/h1/joint/left_shoulder_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_elbow_joint</joint_name>
+      <topic>/model/h1/joint/left_elbow_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_wrist_roll_joint</joint_name>
+      <topic>/model/h1/joint/left_wrist_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_wrist_pitch_joint</joint_name>
+      <topic>/model/h1/joint/left_wrist_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>left_wrist_yaw_joint</joint_name>
+      <topic>/model/h1/joint/left_wrist_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_shoulder_pitch_joint</joint_name>
+      <topic>/model/h1/joint/right_shoulder_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_shoulder_roll_joint</joint_name>
+      <topic>/model/h1/joint/right_shoulder_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_shoulder_yaw_joint</joint_name>
+      <topic>/model/h1/joint/right_shoulder_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>120</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>2</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_elbow_joint</joint_name>
+      <topic>/model/h1/joint/right_elbow_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_wrist_roll_joint</joint_name>
+      <topic>/model/h1/joint/right_wrist_roll_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_wrist_pitch_joint</joint_name>
+      <topic>/model/h1/joint/right_wrist_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>right_wrist_yaw_joint</joint_name>
+      <topic>/model/h1/joint/right_wrist_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>80</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_thumb_proximal_yaw_joint</joint_name>
+      <topic>/model/h1/joint/L_thumb_proximal_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_thumb_proximal_pitch_joint</joint_name>
+      <topic>/model/h1/joint/L_thumb_proximal_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_thumb_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/L_thumb_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_thumb_distal_joint</joint_name>
+      <topic>/model/h1/joint/L_thumb_distal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_index_proximal_joint</joint_name>
+      <topic>/model/h1/joint/L_index_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_index_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/L_index_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_middle_proximal_joint</joint_name>
+      <topic>/model/h1/joint/L_middle_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_middle_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/L_middle_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_ring_proximal_joint</joint_name>
+      <topic>/model/h1/joint/L_ring_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_ring_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/L_ring_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_pinky_proximal_joint</joint_name>
+      <topic>/model/h1/joint/L_pinky_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>L_pinky_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/L_pinky_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_thumb_proximal_yaw_joint</joint_name>
+      <topic>/model/h1/joint/R_thumb_proximal_yaw_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_thumb_proximal_pitch_joint</joint_name>
+      <topic>/model/h1/joint/R_thumb_proximal_pitch_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_thumb_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/R_thumb_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_thumb_distal_joint</joint_name>
+      <topic>/model/h1/joint/R_thumb_distal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_index_proximal_joint</joint_name>
+      <topic>/model/h1/joint/R_index_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_index_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/R_index_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_middle_proximal_joint</joint_name>
+      <topic>/model/h1/joint/R_middle_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_middle_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/R_middle_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_ring_proximal_joint</joint_name>
+      <topic>/model/h1/joint/R_ring_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_ring_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/R_ring_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_pinky_proximal_joint</joint_name>
+      <topic>/model/h1/joint/R_pinky_proximal_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+  <gazebo>
+    <plugin filename="libignition-gazebo-joint-position-controller-system.so"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>R_pinky_intermediate_joint</joint_name>
+      <topic>/model/h1/joint/R_pinky_intermediate_joint/cmd_pos</topic>
+      <initial_position>0.0</initial_position>
+      <p_gain>0.5</p_gain>
+      <i_gain>0</i_gain>
+      <d_gain>0.002</d_gain>
+      <cmd_max>1.0</cmd_max>
+      <cmd_min>-1.0</cmd_min>
+    </plugin>
+  </gazebo>
+
+  <!-- IMU Sensor Plugin -->
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>400</update_rate>
+      <topic>imu</topic>
+      <imu>
+        <angular_velocity>
+          <x><noise type="gaussian"><mean>0.0</mean><stddev>2e-4</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0.0</mean><stddev>2e-4</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0.0</mean><stddev>2e-4</stddev></noise></z>
+        </angular_velocity>
+        <linear_acceleration>
+          <x><noise type="gaussian"><mean>0.0</mean><stddev>1.7e-2</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0.0</mean><stddev>1.7e-2</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0.0</mean><stddev>1.7e-2</stddev></noise></z>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+  </gazebo>
+
+  <!-- Gazebo material colors -->
+  <gazebo reference="pelvis">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+  <gazebo reference="torso_link">
+    <material>Gazebo/DarkGrey</material>
+  </gazebo>
+
 </robot>

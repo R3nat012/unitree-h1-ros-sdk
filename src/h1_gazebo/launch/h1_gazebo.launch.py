@@ -7,7 +7,7 @@ This launch file starts:
 - ros_gz_bridge: Bridges Gazebo topics to ROS 2
 - rviz2 (optional): Visualization
 """
-
+import re
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
@@ -37,7 +37,11 @@ def generate_launch_description():
     ws_dir = os.path.dirname(install_dir)  # workspace root
     
     # URDF file from robots/h1_description in src
-    urdf_file = os.path.join(ws_dir, 'src', 'robots', 'h1_description', 'urdf', 'h1.urdf')
+    robot = os.environ.get('H1_ROBOT', 'h1')
+    if robot == 'h1_2':
+        urdf_file = os.path.join(ws_dir, 'src', 'robots', 'h1_2_description', 'urdf', 'h1_2_gazebo.urdf')
+    else:
+        urdf_file = os.path.join(ws_dir, 'src', 'robots', 'h1_description', 'urdf', 'h1.urdf')
     
     # Check if file exists, if not raise clear error
     if not os.path.exists(urdf_file):
@@ -141,17 +145,8 @@ def generate_launch_description():
             '/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',
             
         ] + [
-            f'/model/h1/joint/{j}/cmd_pos@std_msgs/msg/Float64]ignition.msgs.Double'
-            for j in [
-                'left_hip_yaw_joint', 'left_hip_roll_joint', 'left_hip_pitch_joint',
-                'left_knee_joint', 'left_ankle_joint',
-                'right_hip_yaw_joint', 'right_hip_roll_joint', 'right_hip_pitch_joint',
-                'right_knee_joint', 'right_ankle_joint', 'torso_joint',
-                'left_shoulder_pitch_joint', 'left_shoulder_roll_joint',
-                'left_shoulder_yaw_joint', 'left_elbow_joint',
-                'right_shoulder_pitch_joint', 'right_shoulder_roll_joint',
-                'right_shoulder_yaw_joint', 'right_elbow_joint',
-            ]
+            f'{t}@std_msgs/msg/Float64]ignition.msgs.Double'
+            for t in re.findall(r'<topic>(/model/h1/joint/[^<]+/cmd_pos)</topic>', robot_description)
         ],
         output='screen',
         parameters=[{

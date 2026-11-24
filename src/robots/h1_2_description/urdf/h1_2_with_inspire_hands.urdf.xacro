@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- H1-2 humanoid with Inspire RH56DFTP hands attached at both wrists.
+     Mounting offsets: Unitree's wrist mesh ends at x = 0.054; the robot has a
+     10 mm adapter ring bolted on that face (added to wrist_yaw_link.STL), and
+     the hand's flange sits on the ring, at x = 0.064. The flange of the
+     RH56DFTP-2 is 16 mm tall and the palm origin lies 0.081 above its top, so
+     x = 0.064 + 0.016 + 0.081 = 0.161. Fitted to a photo of the real wrist
+     through a virtual camera; see "Hand mounting points" in the README. -->
+<robot name="h1_2_with_inspire_hands" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- How the coupled phalanges follow the actuated joints: mimic (default, <mimic> tags) or
+       software (no <mimic>; scripts/hand_coupling_node.py publishes all 12 joints per hand from
+       the curves in config/hand_coupling.yaml). Example: xacro this_file coupling:=software -->
+  <xacro:arg name="coupling" default="mimic"/>
+
+  <xacro:include filename="h1_2.urdf"/>
+  <xacro:include filename="inspire_hand_left.urdf.xacro"/>
+  <xacro:include filename="inspire_hand_right.urdf.xacro"/>
+
+  <!-- Left hand attached to left_wrist_yaw_link -->
+  <joint name="left_inspire_hand_mount_joint" type="fixed">
+    <origin xyz="0.161 -0.1125 -0.0075" rpy="3.1415926535 1.5707963267 3.1415926535"/>
+    <parent link="left_wrist_yaw_link"/>
+    <child link="left_hand_base_link"/>
+  </joint>
+
+  <!-- Right hand attached to right_wrist_yaw_link -->
+  <joint name="right_inspire_hand_mount_joint" type="fixed">
+    <origin xyz="0.161 0.1125 -0.0075" rpy="0 1.5707963267 0"/>
+    <parent link="right_wrist_yaw_link"/>
+    <child link="right_hand_base_link"/>
+  </joint>
+
+</robot>
