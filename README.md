@@ -85,6 +85,19 @@ SPACE - Emergency Stop
 ESC   - Quit
 ```
 
+### Publishing velocities
+To walk the robot we have to publish directly into the /cmd_vel topic
+
+```bash
+./ros2_launch.sh topic pub -r 5 -t 10 /cmd_vel geometry_msgs/msg/Twist   "'{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}'"
+```
+
+To close both hands:
+
+```bash
+./ros2_launch.sh topic pub -r 5 -t 10 /h1/hand_cmd sensor_msgs/msg/JointState "'{name: [left_hand, right_hand], position: [1.0, 1.0]}'"
+```
+
 ## Package Structure
 
 ```
